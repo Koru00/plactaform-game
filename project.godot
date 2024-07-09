@@ -19,6 +19,10 @@ config/name="plactaform game"
 run/main_scene="res://scenes/game.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+player="*res://scripts/player.gd"
+
 [display]
 
 window/size/width=320
